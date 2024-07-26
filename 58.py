@@ -1,0 +1,18 @@
+import time
+
+current=time.strftime("%M")
+print(current)
+current=time.strftime("%y")
+print(current)
+current=time.strftime("%Y")
+print(current)
+current=time.strftime("%c")
+print(current)
+current=time.strftime("%C")
+print(current)
+current=time.strftime("%%")
+print(current)
+current=time.strftime("%T")
+print(current)
+current=time.strftime("%p")
+print(current)
